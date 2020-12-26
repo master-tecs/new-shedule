@@ -1,0 +1,36 @@
+/* Global Variables */
+
+.dark-mode .box {
+  padding: 100px;
+  margin: 10px;
+  border: 1 solid #333;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  animation: --dark-primary-color 1s -0.5s linear forwards paused;
+  background: currentColor;
+}
+.dark-mode .box2,
+.dark-mode .box3 {
+  padding: 100px;
+  margin: 10px;
+  border: 1 solid #333;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #d0d2d3;
+}
+.box,
+.box2,
+.box3 {
+  padding: 100px;
+  margin: 10px;
+  border: 1 solid #333;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  background-color: #ecf5f7;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
